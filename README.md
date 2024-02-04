@@ -1,2 +1,2 @@
-# old.reddit.com.css
-CSS styles for old.reddit.com/r/developersIndia
+# Old Reddit Stylesheet
+Stylesheet for https://old.reddit.com/r/developersIndia.
