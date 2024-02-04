@@ -1,23 +1,40 @@
 #header {
   background-color: #0079d3;
   color: #fff;
+  background-image: url(%%bannerBackgroundImage%%);
+  background-size: cover;
+  background-position: center;
+  padding-top: 150px; 
 }
 
-#header-bottom-left {
-  padding: 10px;
-}
+  /* #header-img {
+  background: url(%%logo%%) no-repeat;
+  display: inline-block;
+  height: 100px; 
+  width: 100px; 
+  position: absolute;
+  top: 10px; 
+  left: 10px;
+} */
 
 #sr-header-area {
-  background-color: #005ba1;
+  display: none;
 }
 
-#sr-header-area a {
-  color: #fff;
+div.side div.spacer:nth-of-type(1){
+   padding-top: 300px; 
+   background:url(%%logo%%) top center no-repeat;
 }
 
-#sr-header-area a:hover {
-  color: #00acee;
-}
+/* div.side div.spacer:nth-of-type(1):before{
+   display:block;
+   margin-top: 5px;
+   width: 300px;
+   content: "Welcome to r/developersIndia!";
+   text-align: center; 
+   font-family: Georgia, serif; 
+   font-size: small; 
+} */
 
 .link {
   border: 1px solid #0079d3;
