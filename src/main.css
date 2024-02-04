@@ -43,9 +43,42 @@ div.side div.spacer:nth-of-type(1){
   background-color: #f0f8ff;
 }
 
+
+
 .link:hover {
   border-color: #00acee;
 }
+
+a.author.moderator, .res a.author.moderator {
+    color:white!important;
+    background-color: green !important;
+}
+
+#siteTable .title {
+    color: #0f326a;
+}
+
+#siteTable.title:visited,
+#siteTable a.title:active {
+    color: #142E57;
+}
+
+.sitetable .comment, .sitetable .comment .comment, .sitetable .comment .comment .comment, .sitetable .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment, .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment { background: transparent!important; }
+
+
+/*
+#header .tabmenu li a{
+    color: red;
+    background-color: green;
+    border: 1px solid purple;
+}
+#header .tabmenu .selected a{
+    color: white;
+    background-color: red;
+    border: 1px solid green;
+}
+*/
+
 
 .title {
   font-size: 18px;
