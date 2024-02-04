@@ -196,6 +196,47 @@ text-shadow: none!important;
 cursor: default!important;
 }
 
+
+/*tab menu*/
+div#header-bottom-left ul.tabmenu{
+position: absolute;
+bottom: 0px;
+left: 350px;
+/* font-family:Verdana;*/
+/*text-transform: capitalize;*/
+font-size: 11px;
+}
+.tabmenu li a {
+/*gradients from /r/beer*/
+background: -webkit-linear-gradient(white, #A273DC);
+background: -moz-linear-gradient(white, #A273DC);
+background: -ms-linear-gradient(white, #A273DC);
+background: -o-linear-gradient(white, #A273DC);
+background: linear-gradient(white, #A273DC);
+/*color: #B6A0C0!important;*/
+color: #fff!important;
+border: 0px solid #FFFFFF;
+}
+.tabmenu li.selected a {
+background-color: transparent !important;
+color: #906BA1 !important;
+border-color: #000000 !important;
+border-style: solid;
+border-width: 0px
+}
+.tabmenu li.selected a:hover {
+background-color: transparent!important;
+color: #8C4DA9 !important;
+border-color: #000000 !important;
+border-bottom: 1px solid #c9c9c9 !important;
+}
+.tabmenu li a:hover {
+background-color: transparent !important;
+color: #EDE5F1 !important;
+border-color: #000000 !important;
+}
+/*end tabmenu*/
+
 .footer-parent {
   background-color: #333;
   color: #fff;
