@@ -94,6 +94,26 @@ a.author.moderator, .res a.author.moderator {
   color: #4682b4;
 }
 
+.report-button:hover:after {
+    position: absolute;
+    white-space: normal;
+    display: block;
+    z-index: 1000;
+    width: 350px;
+    padding: 5px;
+    border: 0px solid #333;
+    background: #fca;
+    content: "Feel free to modmail mods to report stuff too.";
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    margin-left: 25px;
+    margin-top: 5px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px
+}
+
 .comment {
   border-left: 2px solid #0079d3;
   padding-left: 10px;
@@ -103,6 +123,77 @@ a.author.moderator, .res a.author.moderator {
 .side {
   background-color: #e6f7ff;
   padding: 10px;
+}
+
+.sidebox.submit {
+width: 300px;
+}
+body:not(.listing-page) .morelink {
+border-color: #5ba2fd!important;
+border-radius: 2px!important;
+background: none transparent;
+background-color: #acd9fc;
+background-image: -webkit-linear-gradient(top,#acd9fc,#8ccbfc)!important;
+background-image: -moz-linear-gradient(top,#acd9fc,#8ccbfc)!important;
+background-image: linear-gradient(top,#acd9fc,#8ccbfc)!important;
+color: #2154a3;
+}
+body:not(.listing-page) .morelink a {
+color: #2154a3!important;
+text-shadow: 1px 1px 2px #eee;
+}
+body .morelink {
+padding: 4px 10px;
+border-color: #3079ed!important;
+border-radius: 2px!important;
+background: none transparent;
+background-color: #5ba2fd;
+background-image: -webkit-linear-gradient(top,#5ba2fd,#4b8adb)!important;
+background-image: -moz-linear-gradient(top,#5ba2fd,#4b8adb)!important;
+background-image: linear-gradient(top,#5ba2fd,#4b8adb)!important;
+color: #fff;
+font-weight: normal;
+letter-spacing: 0;
+}
+body .morelink:hover,
+body:not(.listing-page) .morelink:hover {
+border-color: #08c;
+background: none transparent;
+background-color: #357ae8;
+background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8)!important;
+background-image: -moz-linear-gradient(top,#4d90fe,#357ae8)!important;
+background-image: linear-gradient(top,#4d90fe,#4787ed)!important;
+color: #fff;
+}
+body .morelink a {
+color: #fff!important;
+font-weight: bold;
+font-size: 16px;
+text-shadow: 1px 1px 2px #0f0f0f;
+}
+body .morelink a:hover,
+body:not(.listing-page) .morelink:hover a,
+body:not(.listing-page) .morelink a:hover {
+color: #fff!important;
+text-shadow: 1px 1px 2px #0f0f0f!important;
+}
+body .morelink .nub,
+body .morelink:hover .nub,
+body .disabled .morelink .nub,
+body .disabled .morelink:hover .nub {
+background: none transparent!important;
+}
+body .disabled .morelink,
+body .disabled .morelink:hover {
+border-color: #f5f5f5!important;
+background-color: #eee;
+background-image: none!important;
+}
+body .disabled .morelink a,
+body .disabled .morelink a:hover {
+color: #aaa!important;
+text-shadow: none!important;
+cursor: default!important;
 }
 
 .footer-parent {
