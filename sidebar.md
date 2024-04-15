@@ -35,9 +35,11 @@ What are we all doing?|What can you do?
 
 ## Our Socials
 [**LinkedIn**](https://www.linkedin.com/company/developersindia/)
+
 [**GitHub**](https://github.com/developersIndia)
 
 [**Twitter/X**](https://twitter.com/devsinindia)
+
 [**Join our Discord Server**](https://discord.gg/developersindia-669880381649977354) 
 
 
