@@ -34,10 +34,10 @@ What are we all doing?|What can you do?
 - [**deviras** - Automation Scripts for our Subreddit](https://github.com/developersindia/deviras)
 
 ## Our Socials
-- [**LinkedIn**](https://www.linkedin.com/company/developersindia/)
-- [**Twitter/X**](https://twitter.com/devsinindia)
-- [**GitHub**](https://github.com/developersIndia)
+[**LinkedIn**](https://www.linkedin.com/company/developersindia/)
+[**GitHub**](https://github.com/developersIndia)
 
+[**Twitter/X**](https://twitter.com/devsinindia)
 [**Join our Discord Server**](https://discord.gg/developersindia-669880381649977354) 
 
 
