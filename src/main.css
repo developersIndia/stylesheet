@@ -2,7 +2,6 @@
    r/developersIndia - custom stylesheet based on r/Naut CSS.
 
    Maintained by /u/LinearArray - https://github.com/developersIndia/stylesheet
-
    Put logo as sidebarimg and banner as headerimg
 -------------------------------------------------------------------------- */
 
@@ -148,7 +147,7 @@ a.random.choice {
 }
 
 
-/* Active Mod Special Username Colors haha :D */
+/*Username Colors*/
 .author[href$="bhupeshv"] { color: #008c00; font-weight: bold }
 .author[href$="ksidg"] { color: #008c00; font-weight: bold }
 .author[href$="LinearArray"] { color: #008c00; font-weight: bold }
@@ -1893,7 +1892,6 @@ div.commentarea div.RES-keyNav-activeElement .md {
     width: 320px;
     z-index: 1;
     border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
     background-size: cover; /* or contain */
 }
 
