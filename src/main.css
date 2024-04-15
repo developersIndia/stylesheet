@@ -129,6 +129,23 @@ body:not(.loggedin) #sr-header-area .width-clip {
     transition: all .15s ease;
 }
 
+/* Sidebar button for Discord - taken from /r/india CSS */
+.side .md a[href="https://discord.gg/developersindia-669880381649977354"] {
+	display: block;
+	background-color: #7289DA;
+	color: #FFF;
+	line-height: 3ex;
+	padding: 7px 7px 7px 45px;
+	background-image: url(%%rsz-discord-logo-300x300%%);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 1px solid #7289DA;
+}
+
+
 #sr-header-area:hover .sr-bar a, #sr-header-area:hover #sr-more-link, #sr-header-area:hover .seperator, #sr-header-area:hover .dropdown.srdrop .selected {
     color: rgba(255,255,255,0.8);
 }
@@ -1878,6 +1895,10 @@ div.commentarea div.RES-keyNav-activeElement .md {
     width: 320px;
 }
 
+ .premium-banner{
+     display: none; 
+ }
+
     .side .spacer {
         margin: 0 0 16px;
     }
@@ -1895,6 +1916,12 @@ div.commentarea div.RES-keyNav-activeElement .md {
     background-size: cover; /* or contain */
 }
 
+.sidebarimg {
+    padding: 0; /* Remove padding from sidebarimg */
+}
+
+
+.titlebox .bottom {font-size:0;}
 
 
     /* Subreddit Name / Subscibers / Online */
@@ -1920,7 +1947,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
         z-index: 100;
         font-family: Lato,Arial,sans-serif;
     }
-
+.
         .side .titlebox h1.redditname a {
             color: #333;
         }
