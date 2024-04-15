@@ -129,7 +129,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
     transition: all .15s ease;
 }
 
-/* Sidebar button for Discord - taken from /r/india CSS */
+/* Sidebar button for Discord. */
 .side .md a[href="https://discord.gg/developersindia-669880381649977354"] {
 	display: block;
 	background-color: #7289DA;
@@ -144,6 +144,40 @@ body:not(.loggedin) #sr-header-area .width-clip {
 	border-radius: 4px;
 	border: 1px solid #7289DA;
 }
+
+/* Sidebar button for twitter. */
+.side .md a[href="https://twitter.com/devsinindia"] {
+	display: block;
+	background-color: #ffffff;
+	color: #2CA5E0;
+	line-height: 3ex;
+	padding: 7px 7px 7px 40px;
+	background-image: url(%%icons8-twitter-40%%);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 1px solid #1b8fb3;
+}
+
+/* Sidebar button for github. */
+.side .md a[href="https://github.com/developersIndia"] {
+	display: block;
+	background-color: #ffffff;
+	color: #2CA5E0;
+	line-height: 3ex;
+	padding: 7px 7px 7px 40px;
+	background-image: url(%%githublogo%%);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 1px solid #1b8fb3;
+}
+
+
 
 
 #sr-header-area:hover .sr-bar a, #sr-header-area:hover #sr-more-link, #sr-header-area:hover .seperator, #sr-header-area:hover .dropdown.srdrop .selected {
