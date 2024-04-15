@@ -162,7 +162,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
 }
 
 /* Sidebar button for github. */
-.side .md a[href="https://github.com/developersIndia"] {
+/* .side .md a[href="https://github.com/developersIndia"] {
 	display: block;
 	background-color: #ffffff;
 	color: #2CA5E0;
@@ -176,7 +176,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
 	border-radius: 4px;
 	border: 1px solid #1b8fb3;
 }
-
+*/
 
 
 
