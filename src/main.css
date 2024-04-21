@@ -3,6 +3,8 @@
 
    Maintained by /u/LinearArray - https://github.com/developersIndia/stylesheet
    Put logo as sidebarimg and banner as headerimg
+
+Based on Naut (/r/Naut CSS)
 -------------------------------------------------------------------------- */
 
 /* Body / Box Sizing */
@@ -136,7 +138,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
 	color: #FFF;
 	line-height: 3ex;
 	padding: 7px 7px 7px 45px;
-	background-image: url(%%rsz-discord-logo-300x300%%);
+	background-image: url(%%discord%%);
 	background-repeat: no-repeat;
 	background-position: left;
 	text-decoration: none;
@@ -152,7 +154,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
 	color: #2CA5E0;
 	line-height: 3ex;
 	padding: 7px 7px 7px 40px;
-	background-image: url(%%icons8-twitter-40%%);
+	background-image: url(%%twitter%%);
 	background-repeat: no-repeat;
 	background-position: left;
 	text-decoration: none;
