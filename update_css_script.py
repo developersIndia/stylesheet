@@ -8,7 +8,6 @@ CLIENT_SECRET = os.environ.get('CLIENT_SECRET')
 USERNAME = os.environ.get('USERNAME')
 PASSWORD = os.environ.get('PASSWORD')
 USER_AGENT = 'CSS update script'  
-
 SUBREDDIT_NAME = 'developersIndia'
 
 # GitHub CSS file URL
