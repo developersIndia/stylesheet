@@ -7,5 +7,5 @@ Stylesheet for https://old.reddit.com/r/developersIndia.
 - `images/` - The folder for storing images for the stylesheet.
 
 ## Credits
-Based on r/Naut CSS.
+Based on [Naut CSS](https://github.com/Axel--/Naut-for-reddit).
 
