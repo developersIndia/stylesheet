@@ -14,3 +14,6 @@ Stylesheet for https://old.reddit.com/r/developersIndia.
 ## Credits
 Based on [Naut CSS](https://github.com/Axel--/Naut-for-reddit).
 
+
+[✉️ Contact the Moderators](https://old.reddit.com/message/compose/?to=/r/developersIndia)
+
