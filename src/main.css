@@ -201,6 +201,10 @@ a.random.choice {
 
 
 /*Username Colors*/
+/*need to fix later, with names of all active mods.*/
+/*also this is case-sensitive.*/
+
+
 .author[href$="bhupeshv"] { color: #008c00; font-weight: bold }
 .author[href$="ksidg"] { color: #008c00; font-weight: bold }
 .author[href$="LinearArray"] { color: #008c00; font-weight: bold }
