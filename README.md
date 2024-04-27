@@ -2,7 +2,8 @@
 Stylesheet for https://old.reddit.com/r/developersIndia. 
 
 ## Repository Structure
-- `main.css`
+- `main.css` - The subreddit stylesheet code.
+- 
 
 
 ## Credits
