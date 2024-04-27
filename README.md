@@ -6,6 +6,11 @@ Stylesheet for https://old.reddit.com/r/developersIndia.
 - `sidebar.md` - Markdown for the subreddit sidebar.
 - `images/` - The folder for storing images for the stylesheet.
 
+## Instructions
+- Copy and paste the code from `src/main.css` here in [stylesheet settings](https://old.reddit.com/r/developersIndia/about/stylesheet/).
+- Upload the required images from the `images` folder, refer to the code for which names to use while uploading images.
+- Press save.
+
 ## Credits
 Based on [Naut CSS](https://github.com/Axel--/Naut-for-reddit).
 
