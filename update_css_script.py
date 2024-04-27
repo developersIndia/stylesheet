@@ -9,7 +9,7 @@ USERNAME = os.environ.get('USERNAME')
 PASSWORD = os.environ.get('PASSWORD')
 USER_AGENT = 'CSS update script'  
 
-SUBREDDIT_NAME = os.environ.get('developersIndia')
+SUBREDDIT_NAME = 'developersIndia'
 
 # GitHub CSS file URL
 GITHUB_CSS_URL = 'https://raw.githubusercontent.com/developersIndia/stylesheet/main/src/main.css'
